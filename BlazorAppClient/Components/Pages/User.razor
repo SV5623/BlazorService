@@ -34,5 +34,40 @@ else
 
 @code {
   
-    List<UserDTO> userDtos = new List<UserDTO>();
+    List<UserDTO> userDtos = new List<UserDTO>()
+    {
+        new UserDTO()
+        {
+            Roles = new List<string>()
+            {
+                new string("abc"),
+                new string("dsasa"),
+            }
+            FirstName = "Mark",
+            LastName = "Full",
+            Email = "admin@gmail.com"
+        },
+        new UserDTO()
+        {
+            Roles = new List<string>()
+            {
+                new string("abc"),
+                new string("dsasa"),
+            }
+            FirstName = "First",
+            LastName = "Last",
+            Email = "second@gmail.com"
+        },
+        new UserDTO()
+        {
+            Roles = new List<string>()
+            {
+                new string("abc"),
+                new string("dsasa"),
+            }
+            FirstName = "Second",
+            LastName = "Three",
+            Email = "kjdasiajf@gmail.com"
+        }
+    };
 }

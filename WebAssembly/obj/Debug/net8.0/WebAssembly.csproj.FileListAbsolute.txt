@@ -1,0 +1,12 @@
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/bin/Debug/net8.0/WebAssembly.deps.json
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/bin/Debug/net8.0/WebAssembly.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/bin/Debug/net8.0/WebAssembly.pdb
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.GeneratedMSBuildEditorConfig.editorconfig
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.AssemblyInfoInputs.cache
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.AssemblyInfo.cs
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.csproj.CoreCompileInputs.cache
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/refint/WebAssembly.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.pdb
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/ref/WebAssembly.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.csproj.AssemblyReference.cache

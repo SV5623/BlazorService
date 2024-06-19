@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "FBymMb605781W8cSco7EbSeMcf4Pyb3KKOty1zqTSG8=",
+  "Source": "BlazorAppClient",
+  "BasePath": "_content/BlazorAppClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlazorAppClient/wwwroot",
+      "Source": "BlazorAppClient",
+      "ContentRoot": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/wwwroot/",
+      "BasePath": "_content/BlazorAppClient",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/scopedcss/bundle/BlazorAppClient.styles.css",
+      "SourceId": "BlazorAppClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/scopedcss/bundle/",
+      "BasePath": "_content/BlazorAppClient",
+      "RelativePath": "BlazorAppClient.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/scopedcss/bundle/BlazorAppClient.styles.css"
+    },
+    {
+      "Identity": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/scopedcss/projectbundle/BlazorAppClient.bundle.scp.css",
+      "SourceId": "BlazorAppClient",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/BlazorAppClient",
+      "RelativePath": "BlazorAppClient.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/scopedcss/projectbundle/BlazorAppClient.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/wwwroot/app.css",
+      "SourceId": "BlazorAppClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/wwwroot/",
+      "BasePath": "_content/BlazorAppClient",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    }
+  ]
+}

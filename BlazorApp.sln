@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{FD550937-A387-4F7A-A97B-BF5191F3AABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppClient", "BlazorAppClient\BlazorAppClient.csproj", "{D5873805-2D65-4E2E-8B48-CD59DC49EE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssembly", "WebAssembly\WebAssembly.csproj", "{5B99CA54-0430-423E-8DE8-D063782B4538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD550937-A387-4F7A-A97B-BF5191F3AABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD550937-A387-4F7A-A97B-BF5191F3AABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD550937-A387-4F7A-A97B-BF5191F3AABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD550937-A387-4F7A-A97B-BF5191F3AABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5873805-2D65-4E2E-8B48-CD59DC49EE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5873805-2D65-4E2E-8B48-CD59DC49EE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5873805-2D65-4E2E-8B48-CD59DC49EE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5873805-2D65-4E2E-8B48-CD59DC49EE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B99CA54-0430-423E-8DE8-D063782B4538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B99CA54-0430-423E-8DE8-D063782B4538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B99CA54-0430-423E-8DE8-D063782B4538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B99CA54-0430-423E-8DE8-D063782B4538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

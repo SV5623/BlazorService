@@ -1,0 +1,38 @@
+@page "/users"
+@inject  HttpClient Http
+@using System.Net
+<h3>User</h3>
+
+@if (userDtos == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <td>Email</td>
+            <td>FirstName</td> 
+            <td>LastName</td>  
+            <td>Role</td>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var user in userDtos)
+    {
+        <tr>
+            <td>@user.Email</td>
+            <td>@user.FirstName</td>
+            <td>@user.LastName</td>
+            <td>@string.Join(", ", user.Roles)</td>
+        </tr>
+    }
+    </tbody>
+    </table>
+}
+
+@code {
+  
+    List<UserDTO> userDtos = new List<UserDTO>();
+}

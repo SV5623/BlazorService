@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/BlazorAppClient.csproj": {}
+  },
+  "projects": {
+    "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/BlazorAppClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/BlazorAppClient.csproj",
+        "projectName": "BlazorAppClient",
+        "projectPath": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/BlazorAppClient.csproj",
+        "packagesPath": "/home/s623/.nuget/packages/",
+        "outputPath": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/s623/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/WebAssembly.csproj": {
+                "projectPath": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/WebAssembly.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/WebAssembly.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/WebAssembly.csproj",
+        "projectName": "WebAssembly",
+        "projectPath": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/WebAssembly.csproj",
+        "packagesPath": "/home/s623/.nuget/packages/",
+        "outputPath": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/s623/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

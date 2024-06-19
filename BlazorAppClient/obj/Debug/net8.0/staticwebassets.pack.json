@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/scopedcss/projectbundle/BlazorAppClient.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorAppClient.bundle.scp.css"
+    },
+    {
+      "Id": "/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorAppClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorAppClient.props",
+      "PackagePath": "build\\BlazorAppClient.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorAppClient.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppClient.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorAppClient.props",
+      "PackagePath": "buildTransitive\\BlazorAppClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

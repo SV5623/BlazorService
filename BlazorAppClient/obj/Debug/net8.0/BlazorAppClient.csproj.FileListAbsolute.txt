@@ -27,3 +27,17 @@
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/BlazorAppClient.genruntimeconfig.cache
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/ref/BlazorAppClient.dll
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/BlazorAppClient.csproj.AssemblyReference.cache
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/WebAssembly.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/WebAssembly.pdb
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/BlazorAppClient.sourcelink.json
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/obj/Debug/net8.0/BlazorAppClient.csproj.CopyComplete
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorAppClient/bin/Debug/net8.0/global.json

@@ -1,6 +1,13 @@
 using BlazorAppClient.Components;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+// builder.Services.AddScoped(sp => new HttpClient
+// {
+//     BaseAddress = new Uri(builder.HostEnvironment.BaseAddress)
+// });
+
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

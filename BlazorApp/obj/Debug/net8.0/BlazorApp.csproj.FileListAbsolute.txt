@@ -109,3 +109,4 @@
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorApp/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorApp/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorApp/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/BlazorApp/obj/Debug/net8.0/BlazorApp.sourcelink.json

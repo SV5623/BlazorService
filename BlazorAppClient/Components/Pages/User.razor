@@ -1,12 +1,11 @@
 @page "/users"
-@inject  HttpClient Http
-@using System.Net
-<h3>User</h3>
+@inject HttpClient Http
+@rendermode @( new InteractiveWebAssemblyRenderMode(prerender: false))
 
-@if (userDtos == null)
-{
-    <p><em>Loading...</em></p>
-}
+@* @if (userDtos == null) *@
+@* { *@
+@*     <p><em>Loading...</em></p> *@
+@* } *@
 else
 {
     <table class="table">
@@ -33,41 +32,53 @@ else
 }
 
 @code {
-  
-    List<UserDTO> userDtos = new List<UserDTO>()
+
+    List<UserDTO> userDtos = new List<UserDTO>();
+
+    protected override async Task OnInitializedAsync()
     {
-        new UserDTO()
+        await Task.Delay(500);
+        var result = await Http.GetFromJsonAsync<List<UserDTO>>("api/users");
+        if (result is not null)
         {
-            Roles = new List<string>()
-            {
-                new string("abc"),
-                new string("dsasa"),
-            }
-            FirstName = "Mark",
-            LastName = "Full",
-            Email = "admin@gmail.com"
-        },
-        new UserDTO()
-        {
-            Roles = new List<string>()
-            {
-                new string("abc"),
-                new string("dsasa"),
-            }
-            FirstName = "First",
-            LastName = "Last",
-            Email = "second@gmail.com"
-        },
-        new UserDTO()
-        {
-            Roles = new List<string>()
-            {
-                new string("abc"),
-                new string("dsasa"),
-            }
-            FirstName = "Second",
-            LastName = "Three",
-            Email = "kjdasiajf@gmail.com"
+            userDtos = result;
         }
-    };
+    }
+    
+    // {
+    //     new UserDTO()
+    //     {
+    //         Roles = new List<string>()
+    //         {
+    //             new string("abc"),
+    //             new string("dsasa"),
+    //         },
+    //         FirstName = "Mark",
+    //         LastName = "Full",
+    //         Email = "admin@gmail.com"
+    //     },
+    //     new UserDTO()
+    //     {
+    //         Roles = new List<string>()
+    //         {
+    //             new string("abc"),
+    //             new string("dsasa"),
+    //         },
+    //         FirstName = "First",
+    //         LastName = "Last",
+    //         Email = "second@gmail.com"
+    //     },
+    //     new UserDTO()
+    //     {
+    //         Roles = new List<string>()
+    //         {
+    //             new string("abc"),
+    //             new string("dsasa"),
+    //         },
+    //         FirstName = "Second",
+    //         LastName = "Three",
+    //         Email = "kjdasiajf@gmail.com"
+    //     }
+    //};
+    
 }

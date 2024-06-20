@@ -10,3 +10,4 @@
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.pdb
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/ref/WebAssembly.dll
 /home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.csproj.AssemblyReference.cache
+/home/s623/Media/Try/API/BlazorApp/BlazorApp/WebAssembly/obj/Debug/net8.0/WebAssembly.sourcelink.json
